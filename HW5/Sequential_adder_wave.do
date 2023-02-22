@@ -1,13 +1,13 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate -height 20 -expand -group IN /Sequential_adder_tb/a_tb
-add wave -noupdate -height 20 -expand -group IN /Sequential_adder_tb/b_tb
-add wave -noupdate -height 20 -expand -group IN /Sequential_adder_tb/start_tb
-add wave -noupdate -height 20 -expand -group IN /Sequential_adder_tb/clk_tb
-add wave -noupdate -height 20 -expand -group IN /Sequential_adder_tb/nrst_tb
-add wave -noupdate -height 20 -expand -group OUT /Sequential_adder_tb/sum_tb
-add wave -noupdate -height 20 -expand -group OUT /Sequential_adder_tb/cout_tb
-add wave -noupdate -height 20 -expand -group OUT /Sequential_adder_tb/done_tb
+add wave -noupdate -height 20 -expand -group IN /adder_sequential_tb/a_tb
+add wave -noupdate -height 20 -expand -group IN /adder_sequential_tb/b_tb
+add wave -noupdate -height 20 -expand -group IN /adder_sequential_tb/start_tb
+add wave -noupdate -height 20 -expand -group IN /adder_sequential_tb/clk_tb
+add wave -noupdate -height 20 -expand -group IN /adder_sequential_tb/nrst_tb
+add wave -noupdate -height 20 -expand -group OUT /adder_sequential_tb/sum_tb
+add wave -noupdate -height 20 -expand -group OUT /adder_sequential_tb/cout_tb
+add wave -noupdate -height 20 -expand -group OUT /adder_sequential_tb/done_tb
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {44 ns} 0}
 quietly wave cursor active 1
